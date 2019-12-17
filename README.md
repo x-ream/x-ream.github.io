@@ -1,7 +1,9 @@
-x-ream.io
+# x-ream.io
 
 -------------------------------------
-x7 (master version: 2.2.6)
+## x7 
+[![license](https://img.shields.io/github/license/x-ream/x7.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![maven](https://img.shields.io/maven-central/v/io.xream.x7/x7-parent.svg)](https://search.maven.org/search?q=io.xream)
 
        x7-core
   
@@ -9,7 +11,7 @@ x7 (master version: 2.2.6)
   
        x7-reyc
           /reyc
-              @EnableReyClient  or  @EnableReycSupport
+              @EnableReyClient  or  @EnableReySupport
               @ReyClient
           /reliable
               @EnableReliabilityManagement
@@ -18,7 +20,9 @@ x7 (master version: 2.2.6)
               
               
 -------------------------------------              
-reliable (master version: 1.0.0)
+## reliable 
+[![license](https://img.shields.io/github/license/x-ream/reliable.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![maven](https://img.shields.io/maven-central/v/io.xream.reliable/reliable.svg)](https://search.maven.org/search?q=io.xream)
 
        mq transaction, with tcc option
        implements x7/x7-reyc/reliable
