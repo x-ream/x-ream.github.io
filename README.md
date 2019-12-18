@@ -22,7 +22,7 @@
               @ReliableOnConsumed
               
     
-## Maven dependency
+### Maven dependency
 ```xml
 <x7.version>2.2.7.RELEASE</x7.version>
 
@@ -45,7 +45,7 @@
        implements x7/x7-reyc/reliable
   
  
-## Maven dependency
+### Maven dependency
 ```xml
 <reliable.version>1.1.0.RELEASE</reliable.version>
 
