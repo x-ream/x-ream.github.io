@@ -21,7 +21,19 @@
               @ReliableProducer
               @ReliableOnConsumed
               
-              
+    
+## Maven dependency
+```xml
+<x7.version>2.2.7.RELEASE</x7.version>
+
+<dependency>
+    <groupId>io.xream.x7</groupId>
+    <artifactId>x7-spring-boot-starter</artifactId>
+    <version>${x7.version}</version>
+</dependency>
+
+```  
+        
 -------------------------------------              
 ## reliable
    [http://reliable.xream.io](http://reliable.xream.io)
@@ -33,7 +45,18 @@
        implements x7/x7-reyc/reliable
   
  
+## Maven dependency
+```xml
+<reliable.version>1.1.0.RELEASE</reliable.version>
 
+<dependency>
+    <groupId>io.xream.x7</groupId>
+    <artifactId>x7-spring-boot-starter</artifactId>
+    <version>${reliable.version}</version>
+</dependency>
+
+```  
+   
 --------------------------------------
 to develop java project quickly
 
