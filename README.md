@@ -1,7 +1,7 @@
-# [xream.io](https://xream.io)
-       
+# [xream.io](https://xream.io)   
+    to develop java project quickly
 
--------------------------------------
+
 ## x7
    [http://x7.xream.io](http://x7.xream.io)
    
@@ -22,7 +22,7 @@
               @ReliableOnConsumed
               
     
-### Maven dependency
+### maven dependency
 ```xml
 <x7.version>2.2.7.RELEASE</x7.version>
 
@@ -34,7 +34,7 @@
 
 ```  
         
--------------------------------------              
+        
 ## reliable
    [http://reliable.xream.io](http://reliable.xream.io)
    
@@ -45,7 +45,7 @@
        implements x7/x7-reyc/reliable
   
  
-### Maven dependency
+### maven dependency
 ```xml
 <reliable.version>1.1.0.RELEASE</reliable.version>
 
@@ -57,5 +57,4 @@
 
 ```  
    
---------------------------------------
-to develop java project quickly
+
