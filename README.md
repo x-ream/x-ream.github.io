@@ -1,8 +1,10 @@
-# xream.io
-       http://xream.io
+# [xream.io](https://xream.io)
+       
 
 -------------------------------------
-## x7 
+## x7
+   [http://x7.xream.io](http://x7.xream.io)
+   
 [![license](https://img.shields.io/github/license/x-ream/x7.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![maven](https://img.shields.io/maven-central/v/io.xream.x7/x7-parent.svg)](https://search.maven.org/search?q=io.xream)
 
@@ -21,7 +23,9 @@
               
               
 -------------------------------------              
-## reliable 
+## reliable
+   [http://reliable.xream.io](http://reliable.xream.io)
+   
 [![license](https://img.shields.io/github/license/x-ream/reliable.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![maven](https://img.shields.io/maven-central/v/io.xream.reliable/reliable.svg)](https://search.maven.org/search?q=io.xream)
 
@@ -31,6 +35,5 @@
  
 
 --------------------------------------
-to develop java project quickly 
---------------------------------------
+to develop java project quickly
 
