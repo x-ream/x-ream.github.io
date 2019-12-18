@@ -50,8 +50,8 @@
 <reliable.version>1.1.0.RELEASE</reliable.version>
 
 <dependency>
-    <groupId>io.xream.x7</groupId>
-    <artifactId>x7-spring-boot-starter</artifactId>
+    <groupId>io.xream.reliable</groupId>
+    <artifactId>reliable-spring-boot-starter</artifactId>
     <version>${reliable.version}</version>
 </dependency>
 
