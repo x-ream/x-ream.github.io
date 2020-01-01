@@ -12,7 +12,7 @@
 [![maven](https://img.shields.io/maven-central/v/io.xream.x7/x7-parent.svg)](https://search.maven.org/search?q=io.xream)
 
        
-       x7-repository
+       x7-repo
           extends BaseRepository<Foo>
           @EnableX7Repository
           @EnableX7L3Caching
