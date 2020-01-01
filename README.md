@@ -29,7 +29,7 @@
     
 ### maven dependency
 ```xml
-<x7.version>2.2.7.RELEASE</x7.version>
+<x7.version>2.3.0.RELEASE</x7.version>
 
 <dependency>
     <groupId>io.xream.x7</groupId>
