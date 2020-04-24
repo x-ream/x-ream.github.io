@@ -29,12 +29,11 @@
     
 ### maven dependency
 ```xml
-<x7.version>2.3.6.RELEASE</x7.version>
 
 <dependency>
     <groupId>io.xream.x7</groupId>
     <artifactId>x7-spring-boot-starter</artifactId>
-    <version>${x7.version}</version>
+    ....
 </dependency>
 
 ```  
@@ -52,12 +51,11 @@
  
 ### maven dependency
 ```xml
-<reliable.version>1.1.8.RELEASE</reliable.version>
 
 <dependency>
     <groupId>io.xream.reliable</groupId>
     <artifactId>reliable-spring-boot-starter</artifactId>
-    <version>${reliable.version}</version>
+    ....
 </dependency>
 
 ```  
