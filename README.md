@@ -1,9 +1,18 @@
 # [xream](https://xream.io)   
+####     [/sqli](http://sqli.xream.io)
 ####     [/x7](http://x7.xream.io) 
 ####     [/reliable](http://reliable.xream.io)
    
     to develop java project quickly
 
+
+## sqli
+   [http://sqli.xream.io](http://sqli.xream.io)
+   
+        @X.Key
+        @X.Mapping
+        Criteria
+        CriteriaBuilder
 
 ## x7
    [http://x7.xream.io](http://x7.xream.io)
