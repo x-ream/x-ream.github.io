@@ -26,6 +26,7 @@
        
        x7-repo
           extends BaseRepository<Foo>
+          extends ResultMapRepository
           @EnableX7Repository
           @EnableX7L3Caching
   
