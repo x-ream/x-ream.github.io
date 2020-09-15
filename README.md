@@ -10,7 +10,7 @@
    [http://sqli.xream.io](http://sqli.xream.io)
    
 [![license](https://img.shields.io/github/license/x-ream/sqli.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![maven](https://img.shields.io/maven-central/v/io.xream.x7/sqli-parent.svg)](https://search.maven.org/search?q=io.xream)
+[![maven](https://img.shields.io/maven-central/v/io.xream.sqli/sqli-parent.svg)](https://search.maven.org/search?q=io.xream)
    
         @X.Key
         @X.Mapping
