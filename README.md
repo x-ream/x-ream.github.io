@@ -1,5 +1,6 @@
 # [xream](https://xream.io)   
 ####     [/sqli](http://sqli.xream.io)
+####     [/rey](http://rey.xream.io)
 ####     [/x7](http://x7.xream.io) 
 ####     [/reliable](http://reliable.xream.io)
    
@@ -16,6 +17,17 @@
         @X.Mapping
         Criteria
         CriteriaBuilder
+        
+## rey
+   [http://rey.xream.io](http://rey.xream.io)
+   
+[![license](https://img.shields.io/github/license/x-ream/rey.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![maven](https://img.shields.io/maven-central/v/io.xream.rey/rey.svg)](https://search.maven.org/search?q=io.xream)
+   
+        @EnableReyClient  or  @EnableReySupport
+        @ReyClient
+        @Fallback
+   
 
 ## x7
    [http://x7.xream.io](http://x7.xream.io)
@@ -30,14 +42,10 @@
           @EnableX7Repository
           @EnableX7L3Caching
   
-       x7-reyc
-          /reyc
-              @EnableReyClient  or  @EnableReySupport
-              @ReyClient
-          /reliable
-              @EnableReliabilityManagement
-              @ReliableProducer
-              @ReliableOnConsumed
+       rey
+          @EnableReyClient  or  @EnableReySupport
+          @ReyClient
+          @Fallback
               
     
 ### maven dependency
@@ -59,14 +67,13 @@
 [![maven](https://img.shields.io/maven-central/v/io.xream.reliable/reliable.svg)](https://search.maven.org/search?q=io.xream)
 
        mq transaction, with tcc option
-       implements x7/x7-reyc/reliable
   
  
 ### maven dependency
 ```xml
 
 <dependency>
-    <groupId>io.xream.reliable</groupId>
+    <groupId>io.xream.relooxaio.xream.relooxa</groupId>
     <artifactId>reliable-spring-boot-starter</artifactId>
     ....
 </dependency>
