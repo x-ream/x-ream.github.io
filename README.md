@@ -24,10 +24,10 @@
 [![license](https://img.shields.io/github/license/x-ream/rey.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![maven](https://img.shields.io/maven-central/v/io.xream.rey/rey.svg)](https://search.maven.org/search?q=io.xream)
    
-        @EnableReyClient  or  @EnableReySupport
+        @EnableReyClient  
         @ReyClient
         @Fallback
-   
+        @Resource ReyTemplate reyTemplate;
 
 ## x7
    [http://x7.xream.io](http://x7.xream.io)
@@ -40,12 +40,9 @@
           extends BaseRepository<Foo>
           extends ResultMapRepository
           @EnableX7Repository
-          @EnableX7L3Caching
-  
-       rey
-          @EnableReyClient  or  @EnableReySupport
-          @ReyClient
-          @Fallback
+          @EnableX7L2Caching
+          @X.Mapping
+          @X.Key
               
     
 ### maven dependency
