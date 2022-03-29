@@ -28,6 +28,18 @@
         @ReyClient
         @Fallback
         @Resource ReyTemplate reyTemplate;
+        
+        
+### maven dependency
+```xml
+
+<dependency>
+    <groupId>io.xream.rey</groupId>
+    <artifactId>rey-spring-boot-starter</artifactId>
+    ....
+</dependency>
+
+```  
 
 ## x7
    [http://x7.xream.io](http://x7.xream.io)
