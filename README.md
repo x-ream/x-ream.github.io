@@ -2,9 +2,9 @@
 ####     [/sqli](http://sqli.xream.io)
 ####     [/rey](http://rey.xream.io)
 ####     [/x7](http://x7.xream.io) 
-####     [/reliable](http://reliable.xream.io)
+####     [/acku](http://acku.xream.io)
    
-    to develop java project quickly
+    to develop project quickly
 
 
 ## sqli
@@ -69,11 +69,11 @@
 ```  
         
         
-## reliable
-   [http://reliable.xream.io](http://reliable.xream.io)
+## acku
+   [http://acku.xream.io](http://acku.xream.io)
    
-[![license](https://img.shields.io/github/license/x-ream/reliable.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![maven](https://img.shields.io/maven-central/v/io.xream.reliable/reliable.svg)](https://search.maven.org/search?q=io.xream)
+[![license](https://img.shields.io/github/license/x-ream/acku.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![maven](https://img.shields.io/maven-central/v/io.xream.acku/acku.svg)](https://search.maven.org/search?q=io.xream)
 
        mq transaction, with tcc option
   
@@ -82,8 +82,8 @@
 ```xml
 
 <dependency>
-    <groupId>io.xream.relooxaio.xream.relooxa</groupId>
-    <artifactId>reliable-spring-boot-starter</artifactId>
+    <groupId>io.xream.acku</groupId>
+    <artifactId>acku-spring-boot-starter</artifactId>
     ....
 </dependency>
 
