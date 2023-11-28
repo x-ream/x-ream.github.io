@@ -1,6 +1,5 @@
 # [xream](https://xream.io)   
 ####     [/sqli](http://sqli.xream.io)
-####     [/rey](http://rey.xream.io)
 ####     [/x7](http://x7.xream.io) 
 ####     [/acku](http://acku.xream.io)
    
@@ -15,31 +14,7 @@
    
         @X.Key
         @X.Mapping
-        Criteria
-        CriteriaBuilder
-        
-## rey
-   [http://rey.xream.io](http://rey.xream.io)
-   
-[![license](https://img.shields.io/github/license/x-ream/rey.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![maven](https://img.shields.io/maven-central/v/io.xream.rey/rey.svg)](https://search.maven.org/search?q=io.xream)
-   
-        @EnableReyClient  
-        @ReyClient
-        @Fallback
-        @Resource ReyTemplate reyTemplate;
-        
-        
-### maven dependency
-```xml
-
-<dependency>
-    <groupId>io.xream.rey</groupId>
-    <artifactId>rey-spring-boot-starter</artifactId>
-    ....
-</dependency>
-
-```  
+        Q q = QB.of(Foo.class).select(id).eq("qty",1).build();
 
 ## x7
    [http://x7.xream.io](http://x7.xream.io)
@@ -50,7 +25,7 @@
        
        x7-repo
           extends BaseRepository<Foo>
-          extends ResultMapRepository
+          extends RepositoryX
           @EnableX7Repository
           @EnableX7L2Caching
           @X.Mapping
@@ -66,8 +41,7 @@
     ....
 </dependency>
 
-```  
-        
+```
         
 ## acku
    [http://acku.xream.io](http://acku.xream.io)
